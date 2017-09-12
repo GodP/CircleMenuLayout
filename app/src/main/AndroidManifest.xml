@@ -15,12 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <service android:name=".MessageService">
             <intent-filter android:name="com.aidl.user">
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-
         </service>
+
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>
